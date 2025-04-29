@@ -1,7 +1,7 @@
 # 🏅 Global Games Insights - Olympic Data Analysis Project
 
 Welcome to the **Global Games Insights Repository!** 🎯🏆  
-This project focuses on analyzing Olympic datasets using **Azure Cloud services**. It covers **data ingestion, transformation, and visualization** of athlete, team, and medal data. Built using **Azure Data Factory, Azure Blob Storage, and Azure Synapse Analytics** for complete end-to-end data insights. 🚀
+This project focuses on analyzing Olympic datasets using **Azure Cloud services**. It covers **data ingestion, transformation, and visualization** of athlete, team, and medal data. Built using **Azure Data Factory, Azure Blob Storage, and Azure Synapse Analytics** for complete end to end data insights. 🚀
 
 ## 📜 Table of Contents
 
@@ -11,6 +11,7 @@ This project focuses on analyzing Olympic datasets using **Azure Cloud services*
 - **🔍 Key Features**  
 - **📈 Visualizations Included**  
 - **🚀 Deployment Highlights**  
+- **📸 Snapshots of Azure Deployment**  
 - **🌟 Why This Project Matters**
 
 ---
@@ -18,6 +19,9 @@ This project focuses on analyzing Olympic datasets using **Azure Cloud services*
 ## 🏃 Project Overview
 
 End to End Olympic data analysis — from raw ingestion to processed visual insights — powered by Azure cloud solutions.
+
+### 🧭 Flow Diagram
+![Flow Diagram](https://github.com/Chetannrevankar/Global_Games_Insights/blob/main/images/FlowDiagram.png)
 
 ---
 
@@ -42,7 +46,7 @@ End to End Olympic data analysis — from raw ingestion to processed visual insi
 ## 🔍 Key Features
 
 - Athlete demographics and trends analysis.  
-- Country-wise performance and medal distribution.  
+- Country wise performance and medal distribution.  
 - Gender participation comparison over years.  
 - Coaching and team success insights.
 
@@ -62,7 +66,32 @@ End to End Olympic data analysis — from raw ingestion to processed visual insi
 
 - Data uploaded to **Azure Blob Storage**.  
 - Pipelines created via **Azure Data Factory**.  
-- Queries and dashboards built using **Synapse Analytics**.
+- Queries and dashboards built using **Synapse Analytics**.  
+- Contributor access granted to **[Madhu HN](https://github.com/Chetannrevankar/Global_Games_Insights/blob/main/images/MadhuHNCluster.png)** for managing and monitoring the cluster resources.
+
+---
+
+## 📸 Snapshots of Azure Deployment
+
+### 🔄 Flow & Resource Overview
+- [Resource Group](https://github.com/Chetannrevankar/Global_Games_Insights/blob/main/images/ResourceGroup.png)
+
+### 📦 Storage and Ingestion
+- [Storage Account](https://github.com/Chetannrevankar/Global_Games_Insights/blob/main/images/StorageAccount.png)
+- [Data Pipeline](https://github.com/Chetannrevankar/Global_Games_Insights/blob/main/images/DataPipeline.png)
+- [Data Factory Status](https://github.com/Chetannrevankar/Global_Games_Insights/blob/main/images/DataFactoryStatus.png)
+
+### 🧠 Data Processing and Analytics
+- [Databricks Workspace](https://github.com/Chetannrevankar/Global_Games_Insights/blob/main/images/DataBricks.png)
+- [Databricks PySpark](https://github.com/Chetannrevankar/Global_Games_Insights/blob/main/images/DataBricks_Pyspark.png)
+- [Databricks Status](https://github.com/Chetannrevankar/Global_Games_Insights/blob/main/images/DataBricksStatus.png)
+- [Madhu HN's Cluster View](https://github.com/Chetannrevankar/Global_Games_Insights/blob/main/images/MadhuHNCluster.png)
+
+### 🧠 Querying & Synapse Integration
+- [Synapse Workspace](https://github.com/Chetannrevankar/Global_Games_Insights/blob/main/images/SynapseWorkSpace.png)
+- [Synapse Analytics](https://github.com/Chetannrevankar/Global_Games_Insights/blob/main/images/Synapse_Analytics.png)
+- [SQL View](https://github.com/Chetannrevankar/Global_Games_Insights/blob/main/images/SQL.png)
+- [Transformed Data](https://github.com/Chetannrevankar/Global_Games_Insights/blob/main/images/TransformedData.png)
 
 ---
 
